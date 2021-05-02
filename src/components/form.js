@@ -29,7 +29,7 @@ export const FormExample = () => {
 							className='w-1/2 mx-auto mt-1 mb-1 text-lg bg-blue-100 border-2 border-blue-200 rounded-md'
 						/>
 					<div className='w-1/2 mx-auto text-sm text-left text-red-600'> <ErrorMessage name='name'/> </div>
-					<label className='w-1/2 mx-auto text-left mt-3'> Password </label>
+					<label className='w-1/2 mx-auto mt-3 text-left'> Password </label>
 					<Field
 						name='password'
 						type='password'
