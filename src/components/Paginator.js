@@ -43,7 +43,7 @@ export const Paginator = ({data, PER_PAGE, tableHeaders, keysData}) => {
 				nextLabel={'Next \u2771'}
 				pageCount={pageCount}
 				onPageChange={handlePageClick}
-				containerClassName={'pagination my-5 w-1/2 text-xs flex flex-wrap flex-row md:text-md mx-auto'}
+				containerClassName={'pagination my-5 w-1/2 text-xs flex-wrap flex-row md:text-md mx-auto'}
 				previousLinkClassName={'pagination__link focus:outline-none hover:opacity-60'}
 				nextLinkClassName={'pagination__link focus:outline-none hover:opacity-60'}
 				disabledClassName={'pagination__link--disabled focus:outline-none'}
