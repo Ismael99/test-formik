@@ -4,6 +4,7 @@ import {Dashboard} from '../components/Dashboard'
 import {FormExample} from '../components/form'
 import {Home} from '../components/Home'
 import {Paginator} from '../components/Paginator'
+import {GeneratorPDF} from '../components/GeneratorPDF'
 	const titles = ['Nombre', 'Edad']
 	const keysData = ['name', 'age']
 	const data = [
@@ -57,6 +58,7 @@ export const DashboardPage = () => {
 						<Home path='/'></Home>
 						<FormExample path='form'></FormExample>
 						<Paginator path='paginator' data={data} PER_PAGE={10} tableHeaders={titles} keysData={keysData} ></Paginator>
+						<GeneratorPDF path='pdf'/>
 				</Router>
 			</Dashboard>
 		</Fragment>
