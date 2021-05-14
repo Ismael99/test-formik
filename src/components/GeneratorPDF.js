@@ -16,7 +16,7 @@ export const GeneratorPDF = () => {
 			</button>
 			<PDFExport	
 				ref={componentePDF}
-				paperSize='a4'
+				paperSize='letter'
 				margin={40}
 				fileName={`Report for ${new Date().getFullYear()}`}
 				author='Ismael'
